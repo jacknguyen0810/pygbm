@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build"
+
+[project]
+name = "pygbm"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "scipy",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Jack Nguyen Trinh", email = "pan31@cam.ac.uk"},
+]
+maintainers = [
+  {name = "Jack Nguyen Trinh", email = "pan31@cam.ac.uk"}
+]
+description = "A Geometric Brownian Motion Simulator"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python", 
+  "Private" :: DO NOT INSTALL,
+]
+
+[project.urls]
+Homepage = "https://github.com/jacknguyen0810/pygbm"
+Repository = "https://github.com/jacknguyen0810/pygbm"
+"Bug Tracker" = "https://github.com/jacknguyen0810/pygbm/issues"
